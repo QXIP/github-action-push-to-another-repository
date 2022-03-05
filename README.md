@@ -34,6 +34,9 @@ The Username/Organization for the destination repository, if different from `des
 ### `target-branch` (argument) [optional]
 The branch name for the destination repository. It defaults to `main`.
 
+### `source-branch` (argument) [optional]
+The optional source branch used to create the new target upstream branch.
+
 ### `commit-message` (argument) [optional]
 The commit message to be used in the output repository. Optional and defaults to "Update from $REPOSITORY_URL@commit".
 
